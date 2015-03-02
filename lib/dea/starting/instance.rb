@@ -21,7 +21,7 @@ module Dea
     include EventEmitter
 
     STAT_COLLECTION_INTERVAL_SECS = 10
-    NPROC_LIMIT = 512
+    NPROC_LIMIT = 3024
 
     class State
       BORN = 'BORN'
